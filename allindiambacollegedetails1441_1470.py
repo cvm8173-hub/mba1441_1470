@@ -38,13 +38,13 @@ BASE_URL = [
   "https://www.shiksha.com/college/a-j-institute-of-engineering-and-technology-karnataka-other-59553",
   "https://www.shiksha.com/college/sri-shivani-institute-of-management-karimnagar-62331",
   "https://www.shiksha.com/university/kk-university-nalanda-63943",
-  "https://www.shiksha.com/college/hec-group-of-institutions-haridwar-65127",
-  "https://www.shiksha.com/college/career-college-of-management-bhopal-68607",
-  "https://www.shiksha.com/college/vaishnavi-institute-of-management-bhopal-68625",
-  "https://www.shiksha.com/college/lal-bahadur-college-p-g-centre-warangal-62351",
-  "https://www.shiksha.com/college/hindustan-institute-of-management-and-computer-studies-mathura-20144",
-  "https://www.shiksha.com/college/sri-sairam-college-of-engineering-anekal-bangalore-23499",
-  "https://www.shiksha.com/college/modi-institute-of-management-and-technology-kota-24329",
+  # "https://www.shiksha.com/college/hec-group-of-institutions-haridwar-65127",
+  # "https://www.shiksha.com/college/career-college-of-management-bhopal-68607",
+  # "https://www.shiksha.com/college/vaishnavi-institute-of-management-bhopal-68625",
+  # "https://www.shiksha.com/college/lal-bahadur-college-p-g-centre-warangal-62351",
+  # "https://www.shiksha.com/college/hindustan-institute-of-management-and-computer-studies-mathura-20144",
+  # "https://www.shiksha.com/college/sri-sairam-college-of-engineering-anekal-bangalore-23499",
+  # "https://www.shiksha.com/college/modi-institute-of-management-and-technology-kota-24329",
 ]
 
 
