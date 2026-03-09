@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/durgapur-institute-of-advanced-technology-and-management-24104",
-  "https://www.shiksha.com/college/kt-patil-college-of-engineering-and-technology-osmanabad-maharashtra-other-59605",
-  "https://www.shiksha.com/college/mahatma-gandhi-vidyamandir-s-institute-of-management-and-research-nashik-64637",
-  "https://www.shiksha.com/university/cluster-university-srinagar-64761",
-  "https://www.shiksha.com/college/mulshi-institute-of-business-management-pune-147815",
-  "https://www.shiksha.com/college/don-bosco-institute-of-management-guwahati-41973",
-  "https://www.shiksha.com/college/maharana-pratap-college-of-technology-institutions-gwalior-43195",
-  "https://www.shiksha.com/college/sri-balaji-chockalingam-engineering-college-tamil-nadu-other-53897",
-  "https://www.shiksha.com/college/ana-group-of-institutions-bareilly-63245",
-  "https://www.shiksha.com/college/jd-school-of-design-powered-by-jd-institute-bangalore-brigade-road-210597",
-  "https://www.shiksha.com/university/itm-skills-university-navi-mumbai-213055",
-  "https://www.shiksha.com/university/madhav-university-rajasthan-other-42549",
-  "https://www.shiksha.com/college/slcs-subbalakshmi-lakshmipathy-college-of-science-madurai-49109",
-  "https://www.shiksha.com/college/chennais-amirta-international-institute-of-hotel-management-bengaluru-campus-raja-rajeshwari-nagar-bangalore-56961",
-  "https://www.shiksha.com/college/jeppiaar-institute-of-technology-sriperumbudur-chennai-58953",
-  "https://www.shiksha.com/college/trinity-college-of-engineering-and-technology-peddapalli-telangana-other-63755",
-  "https://www.shiksha.com/college/bgs-b-school-uttarahalli-main-road-bangalore-236242",
-  "https://www.shiksha.com/college/vatel-hotel-and-tourism-business-school-sushant-university-gurgaon-47994",
-  "https://www.shiksha.com/university/birla-institute-of-technology-mesra-jaipur-extension-center-51590",
-  "https://www.shiksha.com/college/doon-group-of-colleges-dehradun-52621",
-  "https://www.shiksha.com/college/a-j-institute-of-engineering-and-technology-karnataka-other-59553",
-  "https://www.shiksha.com/college/sri-shivani-institute-of-management-karimnagar-62331",
-  "https://www.shiksha.com/university/kk-university-nalanda-63943",
-  # "https://www.shiksha.com/college/hec-group-of-institutions-haridwar-65127",
-  # "https://www.shiksha.com/college/career-college-of-management-bhopal-68607",
-  # "https://www.shiksha.com/college/vaishnavi-institute-of-management-bhopal-68625",
-  # "https://www.shiksha.com/college/lal-bahadur-college-p-g-centre-warangal-62351",
-  # "https://www.shiksha.com/college/hindustan-institute-of-management-and-computer-studies-mathura-20144",
-  # "https://www.shiksha.com/college/sri-sairam-college-of-engineering-anekal-bangalore-23499",
-  # "https://www.shiksha.com/college/modi-institute-of-management-and-technology-kota-24329",
+  # "https://www.shiksha.com/college/durgapur-institute-of-advanced-technology-and-management-24104",
+  # "https://www.shiksha.com/college/kt-patil-college-of-engineering-and-technology-osmanabad-maharashtra-other-59605",
+  # "https://www.shiksha.com/college/mahatma-gandhi-vidyamandir-s-institute-of-management-and-research-nashik-64637",
+  # "https://www.shiksha.com/university/cluster-university-srinagar-64761",
+  # "https://www.shiksha.com/college/mulshi-institute-of-business-management-pune-147815",
+  # "https://www.shiksha.com/college/don-bosco-institute-of-management-guwahati-41973",
+  # "https://www.shiksha.com/college/maharana-pratap-college-of-technology-institutions-gwalior-43195",
+  # "https://www.shiksha.com/college/sri-balaji-chockalingam-engineering-college-tamil-nadu-other-53897",
+  # "https://www.shiksha.com/college/ana-group-of-institutions-bareilly-63245",
+  # "https://www.shiksha.com/college/jd-school-of-design-powered-by-jd-institute-bangalore-brigade-road-210597",
+  # "https://www.shiksha.com/university/itm-skills-university-navi-mumbai-213055",
+  # "https://www.shiksha.com/university/madhav-university-rajasthan-other-42549",
+  # "https://www.shiksha.com/college/slcs-subbalakshmi-lakshmipathy-college-of-science-madurai-49109",
+  # "https://www.shiksha.com/college/chennais-amirta-international-institute-of-hotel-management-bengaluru-campus-raja-rajeshwari-nagar-bangalore-56961",
+  # "https://www.shiksha.com/college/jeppiaar-institute-of-technology-sriperumbudur-chennai-58953",
+  # "https://www.shiksha.com/college/trinity-college-of-engineering-and-technology-peddapalli-telangana-other-63755",
+  # "https://www.shiksha.com/college/bgs-b-school-uttarahalli-main-road-bangalore-236242",
+  # "https://www.shiksha.com/college/vatel-hotel-and-tourism-business-school-sushant-university-gurgaon-47994",
+  # "https://www.shiksha.com/university/birla-institute-of-technology-mesra-jaipur-extension-center-51590",
+  # "https://www.shiksha.com/college/doon-group-of-colleges-dehradun-52621",
+  # "https://www.shiksha.com/college/a-j-institute-of-engineering-and-technology-karnataka-other-59553",
+  # "https://www.shiksha.com/college/sri-shivani-institute-of-management-karimnagar-62331",
+  # "https://www.shiksha.com/university/kk-university-nalanda-63943",
+  "https://www.shiksha.com/college/hec-group-of-institutions-haridwar-65127",
+  "https://www.shiksha.com/college/career-college-of-management-bhopal-68607",
+  "https://www.shiksha.com/college/vaishnavi-institute-of-management-bhopal-68625",
+  "https://www.shiksha.com/college/lal-bahadur-college-p-g-centre-warangal-62351",
+  "https://www.shiksha.com/college/hindustan-institute-of-management-and-computer-studies-mathura-20144",
+  "https://www.shiksha.com/college/sri-sairam-college-of-engineering-anekal-bangalore-23499",
+  "https://www.shiksha.com/college/modi-institute-of-management-and-technology-kota-24329",
 ]
 
 
@@ -9254,7 +9254,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1441
+    c_count =1464
 
     try:
         for base_url in BASE_URL:
